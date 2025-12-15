@@ -10,7 +10,7 @@ A mobile-first portfolio application built with React and Vite, designed to prov
 
 - **Mobile-First Design**: Optimized specifically for mobile devices with a layout that adapts to screen size.
 - **Desktop Awareness**: Automatically detects desktop users and suggests viewing the desktop version of the portfolio for an optimal experience.
-- **Interactive Animations**: Smooth transitions and animations powered by **Framer Motion**.
+- **Interactive Animations**: Smooth transitions and animations powered by **Motion**.
 - **Responsive Navigation**: Intuitive navigation system for easy access to About, Projects, Certifications, and Contact pages.
 - **Modern Styling**: Built with **TailwindCSS** for a clean, modern, and rapid UI development.
 
