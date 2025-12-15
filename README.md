@@ -1,16 +1,26 @@
-# React + Vite
+# Mobile Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A mobile-first portfolio application built with React and Vite, designed to provide a seamless and interactive experience on smaller screens.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[View Live Demo](https://mhmd-aho.github.io/mobile-protfolio)
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Mobile-First Design**: Optimized specifically for mobile devices with a layout that adapts to screen size.
+- **Desktop Awareness**: Automatically detects desktop users and suggests viewing the desktop version of the portfolio for an optimal experience.
+- **Interactive Animations**: Smooth transitions and animations powered by **Framer Motion**.
+- **Responsive Navigation**: Intuitive navigation system for easy access to About, Projects, Certifications, and Contact pages.
+- **Modern Styling**: Built with **TailwindCSS** for a clean, modern, and rapid UI development.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **[React](https://react.dev/)**: JavaScript library for building user interfaces.
+- **[Vite](https://vitejs.dev/)**: Next Generation Frontend Tooling.
+- **[TailwindCSS](https://tailwindcss.com/)**: A utility-first CSS framework.
+- **[Motion](https://motion.dev/docs)**: A production-ready motion library for React.
+- **[React Router](https://reactrouter.com/)**: Client-side routing for React.
+- **[EmailJS](https://www.emailjs.com/)**: For handling contact form submissions (inferred from dependencies).
+
+
