@@ -1,24 +1,27 @@
 import Navbar from "/src/components/navbar";
-
-export default function Header() {
+import light from '/src/assets/img/icons8-sun-30.png';
+import dark from '/src/assets/img/icons8-moon-30.png';
+export default function Header({setTheme,theme}) {
   return (
     <header className="
-      w-full min-h-[22vh] 
+      w-full h-[25vh]
       flex flex-col items-center justify-between
-      border-b border-black/20
-      px-3 py-4
+      border-b border-black/20 dark:border-white/20
+      p-2
+      pt-6
+      bg-black/10 dark:bg-white/10
+      backdrop-blur-[3px]
     ">
-      {/* Name */}
+      <button onClick={() => setTheme(theme === "dark" ? "light" : "dark")} className="dark:text-white text-black absolute top-2 right-2"><img className="w-6" src={theme === "dark" ? dark : light} alt={theme === "dark" ? "light" : "dark"} /></button>
       <h1 className="
         text-2xl sm:text-3xl 
-        font-bold text-black 
+        font-bold text-black dark:text-white
         text-center leading-tight
       ">
         Mohamad Abou Hamoud
       </h1>
-
-      {/* Role */}
       <h2 className="
+        dark:text-cyan-600 
         text-blue-600 
         text-base sm:text-lg 
         font-medium 
@@ -26,17 +29,15 @@ export default function Header() {
       ">
         Frontend Developer
       </h2>
-
-      {/* Location */}
       <p className="
-        text-xs sm:text-sm 
-        text-black/60 
+        text-xs sm:text-sm
+        dark:text-cyan-600/80 
+        text-blue-600/80 
         text-center
-      ">
+        font-semibold
+        ">
         Saida, Lebanon
       </p>
-
-      {/* Navigation */}
       <Navbar />
     </header>
   )

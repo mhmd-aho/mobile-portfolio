@@ -85,7 +85,7 @@ const projects = [
             src: vsCode
         }
     ]
-    const frontEnd=[
+    const frontEndStack=[
         {
             name:'HTML',
             src: html,
@@ -171,4 +171,4 @@ const projects = [
         }
 
     ]
-    export {projects,tools,frontEnd,certifications,contactApp};
+    export {projects,tools,frontEndStack,certifications,contactApp};
