@@ -13,7 +13,7 @@ import project5 from '/src/assets/img/healthDashboard.webp';
 import project7 from '/src/assets/img/ticketGenerator.webp';
 import project8 from '/src/assets/img/eCommerce.webp';
 import project9 from '/src/assets/img/multi-step-form.png';
-import project10 from '/src/assets/img/preview.png';
+import project10 from '/src/assets/img/nike-e-commerce.webp';
 import meta from '/src/assets/img/Mohamad_Abou_Hamoud_Certification.pdf';
 import typeScriptCert from '/src/assets/img/typescript_certification.pdf';
 import uiDesign from '/src/assets/img/certificate.pdf';
@@ -24,6 +24,8 @@ import linkedin from '/src/assets/img/icons8-linkedin-48.png';
 import insta from '/src/assets/img/icons8-instagram-94.png';
 import whatsapp from '/src/assets/img/whatsapp.png';
 import upwork from '/src/assets/img/upwork-icon.webp';
+import motion from '/src/assets/img/motion.webp';
+import gsap from '/src/assets/img/gsap.webp';
 
 const projects = [
         {
@@ -116,12 +118,12 @@ const projects = [
         },
         {
             name:'GSAP',
-            svg: true
+            src: gsap
 
         },
         {
             name:'Motion',
-            svg:true}
+            src: motion}
     ]
     const certifications = [
         {
